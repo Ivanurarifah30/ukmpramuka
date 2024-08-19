@@ -1,0 +1,30 @@
+.required-form:after {
+	content:" *";
+	color: red;
+}
+.pointer {
+	cursor: pointer;
+}
+.link-pointer {
+	cursor: pointer;
+	color: #1572E8 !important;
+}
+.link-pointer:hover {
+	text-decoration: underline !important;
+}
+.custom-file-input:lang(en)~.custom-file-label::after {
+	content: "Jelajahi";
+}
+.custom-file {
+	overflow: hidden;
+}
+.custom-file-label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 1.8 !important;
+}
+.custom-padding-table {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+}
